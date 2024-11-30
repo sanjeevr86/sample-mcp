@@ -11,17 +11,36 @@
             padding: 20px;
             background-color: #f0f0f0;
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
             padding: 20px;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
         }
         p {
             color: #666;
             line-height: 1.6;
+            text-align: center;
+        }
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+        .project-list li {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .contact-info {
             text-align: center;
         }
     </style>
@@ -29,5 +48,28 @@
 <body>
     <h1>Welcome to My Cool Project</h1>
     <p>This is a sample page for our GitHub workflow demonstration.</p>
+    
+    <section>
+        <h2>About Us</h2>
+        <p>We are a team of passionate developers working on creating awesome projects. Our mission is to demonstrate effective GitHub workflows and collaboration practices.</p>
+    </section>
+
+    <section>
+        <h2>Featured Projects</h2>
+        <ul class="project-list">
+            <li>Project Alpha - A revolutionary new app</li>
+            <li>Project Beta - Making development easier</li>
+            <li>Project Gamma - The future of web design</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p>Email: info@example.com</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Address: 123 Tech Street, Code City, ST 12345</p>
+        </div>
+    </section>
 </body>
 </html>
